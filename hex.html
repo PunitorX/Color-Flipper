@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    
+    <title>Color Flipper</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-warning justify-content-center">
+        <ul class="nav">
+            <li class="nav-item ms-3 p-3">
+              <a class="nav-link active fs-4" aria-current="page" href="#">Color Flipper</a>
+            </li>
+            <li class="nav-item ms-3 p-3 fs-4">
+                <a class="nav-link active" href="index.html">Simple</a>
+            </li>
+            <li class="nav-item ms-3 p-3 fs-4">
+                <a class="nav-link active" href="hex.html">Hex</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <div class="card bg-dark rounded-pill w-50">
+            <h3 class="text-center m-2 text-primary">Background Color : <span class="color">White</span></h3>
+            <div class="d-flex justify-content-center text-center">
+                <button class="btn btn-primary btn-lg m-2" id="btn">Flip</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="hex.js"></script>
+</body>
+</html>
